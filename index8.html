@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyb Music</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- animation -->
+    <link rel="icon" href="cat1.jpg">
+    <!-- Nhúng các tệp CSS của Plyr -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+        <!-- css -->
+    <link rel="stylesheet" type="text/css" href="style8.css">
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <!-- html -->
+    <!-- header -->
+    <div class="container">
+
+        <div class="header">
+            <div class="logo">
+                <h1 class="animate__animated animate__fadeInDownBig name">Music cyb</h1>
+            </div>
+            <!-- Poster Circle -->
+            <div class="poster">
+                <div class="circlePoster"></div>
+            </div>
+            <!-- Thẻ nhạc công cụ -->
+            <div class="audio">
+                <audio controls id="audioA" autoplay>
+                    <source id="audioR" src="DiDi.mp3" type="audio/mp3">
+                  </audio>
+            </div>
+        </div>
+        <!-- main -->
+        <div class="main">
+            <div #swiperRef="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide" data-value="khuonMatDangThuong.mp3">
+                    ⛅Poor Face
+                  </div>
+                  <div class="swiper-slide" data-value="MauXanh.mp3">
+                    ⛅ Blue Sea
+                  </div>
+                  <div class="swiper-slide" data-value="YeuMotNguoiCoLe.mp3"> 
+                    ⛅ Love Maybe
+                  </div>
+                  <div class="swiper-slide" data-value="CamOnDaDen.mp3">
+                    ⛅ Tks Coming
+                  </div>
+                  <div class="swiper-slide" data-value="HaNoi.mp3">
+                    ⛅ Hanoi Windy
+                  </div>
+                  <div class="swiper-slide" data-value="EmptyLove.mp3">
+                    ⛅ Empty Love
+                  </div>
+                  <div class="swiper-slide" data-value="KimiNoNaWa.mp3"> 
+                    ⛅ Kimi no Na wa
+                  </div>
+                  <div class="swiper-slide" data-value="DiDi.mp3">
+                    ⛅ Đi Đi
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+
+    </div>
+     <!-- Nhúng các tệp JavaScript của Plyr -->
+     <script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
